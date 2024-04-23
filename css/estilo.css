@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
 *{
     box-sizing: border-box;
 }
@@ -39,11 +41,11 @@ h1,h2,h3,h4,h5{
     font-size: 1.9em;
     color: #de423a;
     padding: 10px;
-    font-family: 'Sacramento', cursive;
+    font-family: 'Varela Round', cursive;
         
 }
 .main-header__contactInfo__phone{
-    background:#de423a;
+    background:#43BFEF;
     color: #fff;
     padding: 10px;
     margin: 0;
@@ -95,7 +97,7 @@ h1,h2,h3,h4,h5{
     font-size: 1.3em;
     width: 35px;
     height: 35px;
-    background: #fff;
+    background: #43BFEF;
     border-radius: 50%;
 }
 
@@ -131,10 +133,10 @@ h1,h2,h3,h4,h5{
     
 }
 .menu__link:hover{
-     background-color: #DE423A;
+     background-color: #43BFEF;
 }
 .menu__link--select{
-    background-color: #DE423A;
+    background-color: #43BFEF;
     
 }
 .mostrar{
@@ -176,7 +178,7 @@ h1,h2,h3,h4,h5{
 
 /*----------------Estilos Principales------------------*/
 .group--color .container{
-	background-color: #DE423A;
+	background-color: #43BFEF;
 	padding: 10px;
 	text-align: center;
 	
@@ -199,7 +201,7 @@ h1,h2,h3,h4,h5{
 	text-align: center;
 	text-decoration: none;
 	width: 120px;
-	background: #DE423A;
+	background: #43BFEF;
 	color: #fff;
 	padding:10px;
 	margin: 10px auto;
