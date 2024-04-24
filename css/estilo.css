@@ -186,7 +186,7 @@ h1,h2,h3,h4,h5{
 .main__title{
 	margin: 15px 0;
 	font-size: 2.8em;
-	font-family: 'Sacramento',cursive;
+	font-family: 'Varela Round',cursive;
 	
 }
 .column__title{
@@ -208,7 +208,7 @@ h1,h2,h3,h4,h5{
 	
 }
 .group__title{
-	font-family:'Sacramento',cursive;
+	font-family:'Varela Round',cursive;
 	text-align: center;
 	font-weight: bold;
 	font-size: 1.8em;
