@@ -5,7 +5,9 @@
     <title>Contacto</title>
     <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=2.0, minimum-scale=1.0">
     <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/contact.css">
     <link href="https://file.myfontastic.com/3j45yvRpaWhzeStdASehh9/icons.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 <body>
     <header class="main-header">
@@ -15,13 +17,12 @@
             </div>
             <div class="main-header__contactInfo column column--50">
                 <p class="main-header__contactInfo__phone">
-                    <span class="icon-phone">999-9999
+                    <span class="icon-phone">+56 9 81314686 
                     </span>
                 </p>
                 <p class="main-header__contactInfo__addres">
-                    <span class="icon-location">Mi calle 123 Talcahuano</span>
+                    <span class="icon-location">Minato City, Tokyo 108-0073, Japón</span>
                 </p>
-                
             </div>
         </div>
     </header>
@@ -42,15 +43,58 @@
         </div>
     </nav>
     <section class="banner">
-        <img src="img/banner holo.png" alt="" class="banner__img">
+        <img src="img/banner4.png" alt="" class="banner__img">
         <div class="banner__content">Un nuevo día a día, juntos.</div>
     </section>
-    <main>
+    <section class="group--color">
+        <div class="container">
+            <h2 class="main__title">Registro</h2>
+            <p class="main_txt">
+                Enterate de las noticias y futoros eventos de nuestros miembros.
+            </p>
+        </div>
+    </section>
+    
+    <main class="containers">
+        <form class="formulario">
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Nombres</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Apellidos</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Número de telefono</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                
+              </div>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Direccion email</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+              <div id="emailHelp" class="form-text">Nunca compartiremos tu información.</div>
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Confirmar</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Registrarse</button>
+          </form>
+          <div class="container">
+            <div class="mapa">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d6484.758576700509!2d139.73945794817482!3d35.643025765274864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1scover%20corp!5e0!3m2!1ses-419!2scl!4v1714088426594!5m2!1ses-419!2scl" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
         
 
-
-
-        
     </main>
     <footer class="main-footer">
         <div class="container container--flex">
@@ -60,7 +104,7 @@
             </div>
             <div class="column column--33">
                 <h2 class="column__title">Contactenos</h2>
-                <p class="column__txt">Mi calle 123 Talcahuano</p>
+                <p class="column__txt">Minato City, Tokyo 108-0073, Japón</p>
                 <p class="column__txt">Telefono: +56 9 81314686</p>
                
             </div>

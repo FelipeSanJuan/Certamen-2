@@ -1,0 +1,25 @@
+.containers {
+    display: grid;
+    grid-template-columns: 1fr; /* Una sola columna */
+    grid-gap: 20px; /* Espacio entre las celdas */
+}
+
+@media (min-width: 768px) {
+    .containers {
+        grid-template-columns: 1fr 400px; /* Dos columnas, una flexible y otra de 400px */
+    }
+}
+
+.formulario {
+    width: 100%; /* El formulario ocupa todo el ancho */
+}
+
+.mapa {
+    width: 100%; /* El mapa ocupa todo el ancho */
+}
+
+@media (min-width: 768px) {
+    .mapa {
+        width: 400px; /* El mapa tiene un ancho fijo en pantallas más grandes */
+    }
+}

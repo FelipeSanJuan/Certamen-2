@@ -239,8 +239,8 @@ h1,h2,h3,h4,h5{
 
 /*----------------Estilos Principales------------------*/
 .main-footer{
-	background: #222;
-	color: #fff;
+	background: #43BFEF;
+	color: blue;
 	padding: 10px;
 	padding-top: 20px;
 	padding-bottom: 20px;
@@ -254,7 +254,7 @@ h1,h2,h3,h4,h5{
 }
 
 .main-footer [class*="icon-"] {
-	color: #fff;
+	color: blue;
 	text-decoration: none;
 	
 	
@@ -380,7 +380,7 @@ h1,h2,h3,h4,h5{
 	.main__about_description .column--50:nth-child(2) .column__txt
 	{
 		line-height: 55px;
-		text-align: justify;
+		text-align: jus tify;
 		
 	}
 	.group__title{
